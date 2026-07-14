@@ -2,9 +2,9 @@
 type: Procedure
 title: Employer certification on Form 10A
 description: Current forms need only an unsigned employer contact who can verify work locations - the signed certification was a 2020-era requirement, and HB 110 capped what cities may demand.
+resource: https://www.ritaohio.com/Media/703127/Form10A%202025%20FINAL.pdf
 tags: [procedure, form-10a, employer]
 timestamp: 2026-07-14T00:00:00Z
-resource: https://www.ritaohio.com/Media/703127/Form10A%202025%20FINAL.pdf
 tax_years: [2020, 2021, 2023, 2024, 2025]
 source: "RITA Form 10A TY2025 vs TY2020 + HB 110 §757.40(D), retrieved 2026-07-14"
 ---

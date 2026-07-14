@@ -2,9 +2,9 @@
 type: Concept
 title: Townships - no municipal income tax (usually)
 description: Ohio townships cannot levy income tax, so township residents owe no residence municipal tax - the JEDD/JEDZ exception and why "I live in a township" changes the whole refund math.
+resource: https://www.ohiotownships.org/townships101
 tags: [concept, townships, jedd]
 timestamp: 2026-07-14T00:00:00Z
-resource: https://www.ohiotownships.org/townships101
 tax_years: [2022, 2023, 2024, 2025, 2026]
 source: "Ohio Township Association + OSU Extension + RITA rates table, retrieved 2026-07-14"
 ---

@@ -2,9 +2,9 @@
 type: Concept
 title: Work-from-home rules by tax year
 description: The hub node - three legal regimes for remote-work days (2020 under HB 197, 2021 under HB 110, 2022+ under ordinary ORC 718) and what each means for refunds.
+resource: https://codes.ohio.gov/ohio-revised-code/section-718.011
 tags: [concept, work-from-home, hub]
 timestamp: 2026-07-14T00:00:00Z
-resource: https://codes.ohio.gov/ohio-revised-code/section-718.011
 tax_years: [2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
 source: "HB 197 §29, HB 110 §§610.115/757.40, ORC 718.011, Schaad v. Alder; retrieved 2026-07-14"
 ---

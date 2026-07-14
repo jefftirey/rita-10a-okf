@@ -2,9 +2,9 @@
 type: Procedure
 title: Form 10A - overview
 description: What RITA's refund application is, its ten claim reasons, the paper-only filing rule, the $10 minimum, the 90-day clock, and the traps that get claims denied or suspended.
+resource: https://www.ritaohio.com/Media/703127/Form10A%202025%20FINAL.pdf
 tags: [procedure, form-10a]
 timestamp: 2026-07-14T00:00:00Z
-resource: https://www.ritaohio.com/Media/703127/Form10A%202025%20FINAL.pdf
 tax_years: [2023, 2024, 2025]
 source: "RITA Form 10A TY2025 + instructions, retrieved 2026-07-14"
 ---

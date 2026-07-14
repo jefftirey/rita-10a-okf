@@ -2,9 +2,9 @@
 type: Concept
 title: Residence tax vs. workplace tax
 description: The two overlapping municipal taxes on the same paycheck - the workplace city taxes wages earned there, the residence city taxes everything with a partial or full credit.
+resource: https://codes.ohio.gov/ohio-revised-code/section-718.03
 tags: [concept, basics]
 timestamp: 2026-07-14T00:00:00Z
-resource: https://codes.ohio.gov/ohio-revised-code/section-718.03
 tax_years: [2022, 2023, 2024, 2025, 2026]
 source: "ORC 718 + RITA Rules & Regulations, retrieved 2026-07-14"
 ---

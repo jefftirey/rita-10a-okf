@@ -2,18 +2,18 @@
 type: Scenario
 title: Flagship - Medina resident, Solon office, hybrid 2024
 description: The worked example - a hybrid worker withheld 2.0% to Solon all year claims WFH days on Form 10A; because Medina credits only 25%, the refund is mostly real money.
+resource: https://www.ritaohio.com/Media/703127/Form10A%202025%20FINAL.pdf
 tags: [scenario, work-from-home, tax-year-2024]
 timestamp: 2026-07-14T00:00:00Z
-resource: https://www.ritaohio.com/Media/703127/Form10A%202025%20FINAL.pdf
 tax_years: [2024]
 source: "Composed from Form 10A TY-series + RITA 2026 rates table + ORC 718, retrieved 2026-07-14"
 ---
 
 # Flagship scenario: Medina resident, Solon office, hybrid 2024
 
-**Situation.** A software analyst lives in [Medina](../municipalities/medina.md) (1.25% rate,
+**Situation.** A software analyst lives in [Medina](../municipalities/medina/index.md) (1.25% rate,
 25% credit factor, 0.75% credit limit) and is employed at an office in
-[Solon](../municipalities/solon.md) (2.00%). Through 2024 she worked a hybrid schedule — 3 days
+[Solon](../municipalities/solon/index.md) (2.00%). Through 2024 she worked a hybrid schedule — 3 days
 home, 2 days office — but her employer withheld Solon tax on **all** wages. Numbers below are
 **illustrative**; rates shown are 2026-verified and should be re-checked for the claim year on
 the RITA rates table's year tab.
@@ -41,7 +41,7 @@ verify against Medina's ordinance).
 **Net effect ≈ $1,200 back minus ≈ $113 more residence tax → roughly $1,087**, per year of
 hybrid work, claimable separately for each open year (2023, 2024, 2025). This is the
 partial-credit-city profile where WFH claims matter most — contrast a
-[Brecksville](../municipalities/brecksville.md)-type full-credit resident, for whom the same
+[Brecksville](../municipalities/brecksville/index.md)-type full-credit resident, for whom the same
 refund mostly shifts money between cities (see
 [Credit for taxes paid](../concepts/credit-for-taxes-paid.md)).
 

@@ -2,9 +2,9 @@
 type: Scenario
 title: Under-18 with a summer job - the age exemption refund
 description: From tax year 2024 every municipality exempts under-18 wages, so withheld tax comes back via Form 10A claim reason 1 with proof of birthdate - earlier years varied by city.
+resource: https://cdn.ritaohio.com/Media/703124/2025%20Form%2010A%20FINAL%20Instructions.pdf
 tags: [scenario, age-exemption, tax-year-2024]
 timestamp: 2026-07-14T00:00:00Z
-resource: https://cdn.ritaohio.com/Media/703124/2025%20Form%2010A%20FINAL%20Instructions.pdf
 tax_years: [2024, 2025]
 source: "RITA Form 10A TY2025 instructions + Refunds FAQ, retrieved 2026-07-14"
 ---

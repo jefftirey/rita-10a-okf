@@ -25,11 +25,16 @@ that matters with RITA or a tax preparer.
 
 - Plain-language explanations of how Ohio municipal income tax works (residence vs. workplace,
   credits, the 20-day rule, why townships are different).
-- The Form 10A refund procedures, step by step, including the work-from-home scenario.
-- Per-municipality pages with each RITA member's actual tax rate and credit.
+- The Form 10A refund procedures, step by step, including the work-from-home scenario — plus a
+  [one-stop links page](procedures/official-documents.md) to the actual forms, rules, and statutes.
+- A sub-bundle per municipality — each city gets its own directory with a profile, its actual
+  tax rate and credit, and city-specific refund mechanics (12 verified cities so far, of ~350).
 - The law behind it (Ohio Revised Code Chapter 718, the 2020–2021 pandemic rules, and the
   court decisions that settled them).
 - Worked example scenarios.
+
+This bundle is a **filing aide, not a substitute for the documents**: it explains, then links
+you to the actual form PDFs, the actual statutes, and the actual agency pages.
 
 **Every factual claim is cited.** The full research log — every source URL and the date it was
 retrieved — is in [sources/SOURCES.md](sources/SOURCES.md).

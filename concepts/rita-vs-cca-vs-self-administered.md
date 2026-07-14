@@ -2,9 +2,9 @@
 type: Concept
 title: RITA vs. CCA vs. self-administered cities
 description: Three kinds of tax administration in NE Ohio - RITA members, CCA members (notably Cleveland), and cities that run their own tax departments (Brunswick, Parma, Lakewood, Fairlawn). Form 10A is RITA-only.
+resource: https://www.ritaohio.com/municipalities
 tags: [concept, agencies, boundaries]
 timestamp: 2026-07-14T00:00:00Z
-resource: https://www.ritaohio.com/municipalities
 tax_years: [2026]
 source: "RITA + CCA member lists and city tax pages, retrieved 2026-07-14"
 ---

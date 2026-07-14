@@ -2,9 +2,9 @@
 type: Scenario
 title: "I worked from home in 2020-2021 - can I still claim?"
 description: The trick question - no. 2020 fails on the merits (Schaad) and on the deadline; 2021 was claimable but its window closed in April 2025. The history, briefly.
+resource: https://www.supremecourt.ohio.gov/rod/docs/pdf/0/2024/2024-ohio-525.pdf
 tags: [scenario, work-from-home, tax-year-2020, tax-year-2021, closed-window]
 timestamp: 2026-07-14T00:00:00Z
-resource: https://www.supremecourt.ohio.gov/rod/docs/pdf/0/2024/2024-ohio-525.pdf
 tax_years: [2020, 2021]
 source: "Schaad v. Alder + HB 197/HB 110 + ORC 718.19, retrieved 2026-07-14"
 ---

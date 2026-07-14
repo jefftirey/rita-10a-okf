@@ -7,3 +7,4 @@
 - [Employer certification on Form 10A](employer-certification.md) - Current forms need only an unsigned employer contact who can verify work locations - the signed certification was a 2020-era requirement, and HB 110 capped what cities may demand.
 - [Form 10A - overview](form-10a-overview.md) - What RITA's refund application is, its ten claim reasons, the paper-only filing rule, the $10 minimum, the 90-day clock, and the traps that get claims denied or suspended.
 - [Form 10A step-by-step - work-from-home refund](form-10a-wfh-refund.md) - The flagship procedure - claiming back office-city withholding for days actually worked at home (claim reason 2), including the 260-day allocation worksheet and the days-out log.
+- [Official documents and where to find them](official-documents.md) - One-stop links to the actual authoritative documents - Form 10A PDFs, instructions, RITA's rules, rates table, refund pages, the statutes, and the court opinion.

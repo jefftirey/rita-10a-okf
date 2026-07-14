@@ -2,9 +2,9 @@
 type: Concept
 title: This bundle briefs, it does not advise
 description: How a consuming agent should use this bundle - brief the person with cited facts, flag year-sensitivity, and route final decisions to RITA or a preparer.
+resource: https://www.ritaohio.com
 tags: [concept, meta, disclaimer]
 timestamp: 2026-07-14T00:00:00Z
-resource: https://www.ritaohio.com
 tax_years: [2020, 2021, 2022, 2023, 2024, 2025, 2026]
 source: "Bundle policy, written 2026-07-14"
 ---

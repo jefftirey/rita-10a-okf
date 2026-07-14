@@ -2,9 +2,9 @@
 type: Procedure
 title: Form 10A step-by-step - work-from-home refund
 description: The flagship procedure - claiming back office-city withholding for days actually worked at home (claim reason 2), including the 260-day allocation worksheet and the days-out log.
+resource: https://www.ritaohio.com/Media/703127/Form10A%202025%20FINAL.pdf
 tags: [procedure, form-10a, work-from-home]
 timestamp: 2026-07-14T00:00:00Z
-resource: https://www.ritaohio.com/Media/703127/Form10A%202025%20FINAL.pdf
 tax_years: [2023, 2024, 2025]
 source: "RITA Form 10A TY2025 + instructions + Rules & Regulations §9(F), retrieved 2026-07-14"
 ---

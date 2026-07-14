@@ -2,9 +2,9 @@
 type: Procedure
 title: Amended returns and the refund's ripple effects
 description: A granted Form 10A usually forces residence-return changes - RITA disallows the credit taken on refunded amounts, and non-RITA residents may get a RITA return created for them.
+resource: https://cdn.ritaohio.com/Media/703124/2025%20Form%2010A%20FINAL%20Instructions.pdf
 tags: [procedure, form-37, amended-returns]
 timestamp: 2026-07-14T00:00:00Z
-resource: https://cdn.ritaohio.com/Media/703124/2025%20Form%2010A%20FINAL%20Instructions.pdf
 tax_years: [2023, 2024, 2025]
 source: "RITA Form 10A TY2025 instructions + form signature block, retrieved 2026-07-14"
 ---

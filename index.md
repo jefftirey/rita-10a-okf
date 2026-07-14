@@ -31,6 +31,7 @@ How the tax works. Full list: [concepts/index.md](concepts/index.md)
 
 How to claim. Full list: [procedures/index.md](procedures/index.md)
 
+- [Official documents and where to find them](procedures/official-documents.md) - direct links to the actual forms, rules, rates table, statutes, and opinion. Hand people the real documents.
 - [Form 10A - overview](procedures/form-10a-overview.md) - the ten claim reasons, paper-only filing, $10 minimum, 90-day clock, denial traps.
 - [Form 10A step-by-step - work-from-home refund](procedures/form-10a-wfh-refund.md) - the flagship procedure with the 260-day allocation worksheet.
 - [Employer certification](procedures/employer-certification.md) - unsigned contact info today; why it got lighter after HB 110.
@@ -48,11 +49,14 @@ Primary law, summarized and linked. Full list: [law/index.md](law/index.md)
 
 ## Municipalities
 
-Verified 2026 rates and credits for 12 RITA members (of ~350; the rest via RITA's rates table).
+Each city is its own sub-bundle (profile, 2026 rates and credits, refund mechanics). Twelve
+verified RITA members so far, of ~350 — any other city: check RITA's
+[member list](https://www.ritaohio.com/municipalities) and
+[rates table](https://www.ritaohio.com/TaxRatesTable).
 Full list: [municipalities/index.md](municipalities/index.md)
 
-Medina · Brecksville · Strongsville · North Royalton · Broadview Heights · Hudson · Solon ·
-Westlake · Cleveland Heights · Shaker Heights · Euclid · Berea
+- [Medina](municipalities/medina/index.md) · [Brecksville](municipalities/brecksville/index.md) · [Strongsville](municipalities/strongsville/index.md) · [North Royalton](municipalities/north-royalton/index.md) · [Broadview Heights](municipalities/broadview-heights/index.md) · [Hudson](municipalities/hudson/index.md)
+- [Solon](municipalities/solon/index.md) · [Westlake](municipalities/westlake/index.md) · [Cleveland Heights](municipalities/cleveland-heights/index.md) · [Shaker Heights](municipalities/shaker-heights/index.md) · [Euclid](municipalities/euclid/index.md) · [Berea](municipalities/berea/index.md)
 
 ## Scenarios
 
@@ -66,6 +70,6 @@ Worked examples, including the traps. Full list: [scenarios/index.md](scenarios/
 
 ## Sources & maintenance
 
-- [sources/SOURCES.md](sources/SOURCES.md) - every source URL with retrieval date.
+- [sources/SOURCES.md](sources/SOURCES.md) - every source URL with retrieval date, split into current filing documents and the historical record behind the law nodes.
 - [log.md](log.md) - change history.
-- Directory indexes are generated from node frontmatter by [scripts/build_indexes.py](scripts/build_indexes.py).
+- Directory indexes are generated from node frontmatter by [scripts/build_indexes.py](scripts/build_indexes.py); city sub-bundles by [scripts/gen_municipalities.py](scripts/gen_municipalities.py).

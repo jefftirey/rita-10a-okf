@@ -2,9 +2,9 @@
 type: Concept
 title: Credit for taxes paid to another municipality
 description: How the credit factor and credit limit work, and why the same WFH refund nets real money in Medina but roughly zero in Brecksville.
+resource: https://www.ritaohio.com/TaxRatesTable
 tags: [concept, credit, rates]
 timestamp: 2026-07-14T00:00:00Z
-resource: https://www.ritaohio.com/TaxRatesTable
 tax_years: [2026]
 source: "RITA Tax Rates Table (2026 tab), retrieved 2026-07-14"
 ---
@@ -28,16 +28,16 @@ A [Form 10A refund](../procedures/form-10a-wfh-refund.md) of workplace tax reduc
 credit at the same time (see [Residence vs. workplace tax](residence-vs-workplace-tax.md)). So:
 
 - **Full-credit residence city** (factor 100%, limit ≥ the rates involved — e.g.
-  [Brecksville](../municipalities/brecksville.md), [Solon](../municipalities/solon.md),
-  [Hudson](../municipalities/hudson.md)): the resident was already paying ~0 residence tax on
+  [Brecksville](../municipalities/brecksville/index.md), [Solon](../municipalities/solon/index.md),
+  [Hudson](../municipalities/hudson/index.md)): the resident was already paying ~0 residence tax on
   those wages. A workplace refund is largely offset by new residence tax — the money mostly
   *moves between cities*, with the net depending on the rate difference.
-- **Partial-credit residence city** (e.g. [Medina](../municipalities/medina.md) 25% factor /
-  0.75% limit, [Shaker Heights](../municipalities/shaker-heights.md) and
-  [Cleveland Heights](../municipalities/cleveland-heights.md) 50% / 1.00%): the resident was
+- **Partial-credit residence city** (e.g. [Medina](../municipalities/medina/index.md) 25% factor /
+  0.75% limit, [Shaker Heights](../municipalities/shaker-heights/index.md) and
+  [Cleveland Heights](../municipalities/cleveland-heights/index.md) 50% / 1.00%): the resident was
   paying *both* cities nearly in full. Refunding the workplace tax is real net savings.
-- **Rate differences matter too**: a [Westlake](../municipalities/westlake.md) resident (1.5%)
-  withheld to a 2.85% city like [Euclid](../municipalities/euclid.md) saves the rate gap even
+- **Rate differences matter too**: a [Westlake](../municipalities/westlake/index.md) resident (1.5%)
+  withheld to a 2.85% city like [Euclid](../municipalities/euclid/index.md) saves the rate gap even
   with full credit.
 
 A consuming agent must therefore never answer "is the refund worth filing?" without both

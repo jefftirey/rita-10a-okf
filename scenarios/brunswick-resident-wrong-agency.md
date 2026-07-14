@@ -2,9 +2,9 @@
 type: Scenario
 title: "I live in Brunswick - do I file a RITA 10A?"
 description: The wrong-agency trick question - Brunswick self-administers its income tax and is not a RITA member, so RITA forms do nothing for Brunswick-side taxes.
+resource: https://www.brunswick.oh.us/income-tax/
 tags: [scenario, boundaries, brunswick, self-administered]
 timestamp: 2026-07-14T00:00:00Z
-resource: https://www.brunswick.oh.us/income-tax/
 tax_years: [2023, 2024, 2025, 2026]
 source: "City of Brunswick + RITA member list, retrieved 2026-07-14"
 ---
@@ -22,7 +22,7 @@ What that means in practice:
   **Brunswick's own tax department** on Brunswick's forms — brunswick.oh.us/income-tax.
 - **Workplace-side claims still follow the workplace city's administrator.** A Brunswick
   resident whose employer withheld to a RITA member city (say
-  [Strongsville](../municipalities/strongsville.md)) for days actually worked at home *does*
+  [Strongsville](../municipalities/strongsville/index.md)) for days actually worked at home *does*
   file RITA's [Form 10A](../procedures/form-10a-wfh-refund.md) — against Strongsville, as a
   non-RITA resident. RITA's instructions note a RITA return may be created for non-RITA
   residents reporting work performed in RITA municipalities.

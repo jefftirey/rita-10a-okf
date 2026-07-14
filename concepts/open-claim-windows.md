@@ -2,9 +2,9 @@
 type: Concept
 title: Open claim windows (living table, verified 2026-07-14)
 description: Which tax years are still claimable on Form 10A right now - as of July 2026, TY2023, 2024, and 2025 are open; 2020-2022 are closed (2022 extension filers until ~Oct 2026).
+resource: https://codes.ohio.gov/ohio-revised-code/section-718.19
 tags: [concept, deadlines, living-fact]
 timestamp: 2026-07-14T00:00:00Z
-resource: https://codes.ohio.gov/ohio-revised-code/section-718.19
 tax_years: [2020, 2021, 2022, 2023, 2024, 2025, 2026]
 source: "Computed from ORC 718.19(B)(1) + RITA 10A instructions, 2026-07-14"
 ---

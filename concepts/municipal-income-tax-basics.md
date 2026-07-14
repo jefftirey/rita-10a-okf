@@ -2,9 +2,9 @@
 type: Concept
 title: Ohio municipal income tax basics
 description: What Ohio municipal income tax is, who levies it, what RITA is, and the two hooks - where you live and where you work - that decide who taxes your wages.
+resource: https://codes.ohio.gov/ohio-revised-code/chapter-718
 tags: [concept, basics]
 timestamp: 2026-07-14T00:00:00Z
-resource: https://codes.ohio.gov/ohio-revised-code/chapter-718
 tax_years: [2022, 2023, 2024, 2025, 2026]
 source: "ORC Chapter 718 + RITA, retrieved 2026-07-14"
 ---

@@ -2,9 +2,9 @@
 type: Concept
 title: The 20-day occasional entrant rule
 description: ORC 718.011 - no withholding for a city where an employee worked 20 or fewer days that year, with principal-place-of-work, presumed-worksite, and residence exceptions.
+resource: https://codes.ohio.gov/ohio-revised-code/section-718.011
 tags: [concept, withholding, orc-718]
 timestamp: 2026-07-14T00:00:00Z
-resource: https://codes.ohio.gov/ohio-revised-code/section-718.011
 tax_years: [2016, 2017, 2018, 2019, 2022, 2023, 2024, 2025, 2026]
 source: "ORC 718.011 (eff. 2015-03-23, HB 5 130th GA), retrieved 2026-07-14"
 ---

@@ -2,9 +2,9 @@
 type: Procedure
 title: Documentation checklist for Form 10A
 description: What must accompany each claim reason - W-2s, the days-out log, employer contact, birthdate proof, military documents - and RITA's no-documentation-no-refund rule.
+resource: https://www.ritaohio.com/Media/703127/Form10A%202025%20FINAL.pdf
 tags: [procedure, form-10a, documentation]
 timestamp: 2026-07-14T00:00:00Z
-resource: https://www.ritaohio.com/Media/703127/Form10A%202025%20FINAL.pdf
 tax_years: [2023, 2024, 2025]
 source: "RITA Form 10A TY2025 + instructions, retrieved 2026-07-14"
 ---

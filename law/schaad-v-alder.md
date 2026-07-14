@@ -2,9 +2,9 @@
 type: Law
 title: Schaad v. Alder (2024) - the 2020 refund question, answered
 description: Ohio Supreme Court, 2024-Ohio-525, decided 2024-02-14 (5-2) - HB 197 §29 was constitutional, so Ohio residents get no 2020 WFH refunds; out-of-state workers (Morsy) were different.
+resource: https://www.supremecourt.ohio.gov/rod/docs/pdf/0/2024/2024-ohio-525.pdf
 tags: [law, litigation, schaad, tax-year-2020]
 timestamp: 2026-07-14T00:00:00Z
-resource: https://www.supremecourt.ohio.gov/rod/docs/pdf/0/2024/2024-ohio-525.pdf
 tax_years: [2020]
 source: "Slip opinion 2024-Ohio-525 + Court News Ohio + Buckeye Institute case pages, retrieved 2026-07-14"
 ---

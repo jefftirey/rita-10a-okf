@@ -2,9 +2,9 @@
 type: Concept
 title: Statute of limitations for municipal tax refunds
 description: ORC 718.19(B)(1) - refund requests must be filed within three years after the return (including any valid extension) was due or paid, whichever is later.
+resource: https://codes.ohio.gov/ohio-revised-code/section-718.19
 tags: [concept, deadlines, orc-718]
 timestamp: 2026-07-14T00:00:00Z
-resource: https://codes.ohio.gov/ohio-revised-code/section-718.19
 tax_years: [2020, 2021, 2022, 2023, 2024, 2025, 2026]
 source: "ORC 718.19 (current version eff. 2025-09-30) + RITA 10A instructions, retrieved 2026-07-14"
 ---

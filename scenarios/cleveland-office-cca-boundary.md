@@ -2,9 +2,9 @@
 type: Scenario
 title: RITA suburb resident, Cleveland office - the two-agency case
 description: Cleveland is CCA, not RITA - refunds of Cleveland withholding follow CCA's process, while the residence-side consequences run through RITA. How to keep the two straight.
+resource: https://www.ccaohio.gov/member-municipalities/cleveland
 tags: [scenario, cca, cleveland, boundaries]
 timestamp: 2026-07-14T00:00:00Z
-resource: https://www.ccaohio.gov/member-municipalities/cleveland
 tax_years: [2023, 2024, 2025]
 source: "CCA + RITA pages, retrieved 2026-07-14"
 ---
@@ -12,7 +12,7 @@ source: "CCA + RITA pages, retrieved 2026-07-14"
 # RITA suburb resident, Cleveland office: the two-agency case
 
 **Situation.** A resident of a RITA suburb — say
-[North Royalton](../municipalities/north-royalton.md) — commutes (or used to) to an office in
+[North Royalton](../municipalities/north-royalton/index.md) — commutes (or used to) to an office in
 downtown **Cleveland**, working part of the year from home. Cleveland withholds its 2.50% all year.
 
 **The catch:** Cleveland's income tax is administered by **CCA (Central Collection Agency)**,
