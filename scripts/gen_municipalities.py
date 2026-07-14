@@ -182,6 +182,35 @@ published for tax year {year}, retrieved {retrieved}.
 |---|---|---|---|---|
 """
 
+KEEP_HEADER = """---
+type: Rates
+title: What residents keep - illustrative keep rates vs a 2.0% workplace city ({year})
+description: Every RITA municipality ranked by what its residents would keep from a refund of a typical 2.0% workplace city's tax - computed from the published credit factor and limit, illustrative only.
+resource: https://www.ritaohio.com/TaxRatesTable
+tags: [rates, credit, keep-rates]
+timestamp: {retrieved}T00:00:00Z
+tax_years: [{year}]
+source: "Computed from RITA Tax Rates Table (tax year {year}), retrieved {retrieved}"
+---
+
+# What residents keep: illustrative keep rates vs a 2.0% workplace city ({year})
+
+For a resident of each municipality below who is refunded a **2.0%** workplace city's tax on
+days worked at home, the "keep rate" estimates what stays in their pocket after the residence
+credit on those wages is disallowed: **keep = 2.0% − credit factor × min(2.0%, credit limit)**.
+
+**Illustrative only, under the common reading of factor and limit** — each municipality's
+ordinance defines the actual computation, workplace cities tax at rates other than 2.0%, and
+individual facts control. Money is still money: even a 0.25% keep rate is $25 per $10,000 of
+home-worked wages, per year, and up to three tax years are open at any time
+(see [Open claim windows](../concepts/open-claim-windows.md)). Township residents beat this
+whole table — they keep the full 2.0% with no residence tax at all
+(see [Can I benefit?](../concepts/who-benefits-wfh-refund.md)).
+
+| Residence municipality | Rate | Credit factor | Credit limit | Illustrative keep rate |
+|---|---|---|---|---|
+"""
+
 TOP_INDEX = """# Municipalities
 
 One sub-bundle per RITA member municipality — each is a directory with an index and nodes for
@@ -190,7 +219,8 @@ for tax year {year} (retrieved {retrieved}), parsed by script; regenerate with
 `scripts/fetch_rates.py` + `scripts/gen_municipalities.py`.
 
 Special districts (JEDD/JEDZ) are listed separately in
-[JEDD, JEDZ, and other special districts](jedd-jedz-districts.md).
+[JEDD, JEDZ, and other special districts](jedd-jedz-districts.md). What a refund is worth by
+residence city: [What residents keep](residence-keep-rates.md).
 
 **Cleveland is not here**: it is administered by CCA, not RITA — see
 [RITA vs. CCA vs. self-administered](../concepts/rita-vs-cca-vs-self-administered.md).
@@ -236,6 +266,21 @@ def main() -> None:
     (OUT / "jedd-jedz-districts.md").write_text(
         DISTRICTS_HEADER.format(year=YEAR, retrieved=retrieved) + dist_rows,
         encoding="utf-8",
+    )
+
+    def pct(s):
+        return float(s.rstrip("%"))
+
+    keeps = []
+    for r in munis:
+        k = 2.0 - pct(r["factor"]) / 100 * min(2.0, pct(r["limit"]))
+        keeps.append((k, r))
+    keep_rows = "".join(
+        f"| [{r['name']}]({r['slug']}/index.md) | {r['rate']} | {r['factor']} | {r['limit']} | {k:.3f}% |\n"
+        for k, r in sorted(keeps, key=lambda x: (-x[0], x[1]["slug"]))
+    )
+    (OUT / "residence-keep-rates.md").write_text(
+        KEEP_HEADER.format(year=YEAR, retrieved=retrieved) + keep_rows, encoding="utf-8"
     )
 
     (OUT / "index.md").write_text(

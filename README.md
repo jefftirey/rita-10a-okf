@@ -12,6 +12,22 @@ This repository is a knowledge bundle about exactly that: RITA municipal income 
 what to which city, and how Form 10A refunds work — **written to be read by your AI assistant,
 not by you**.
 
+## Who benefits?
+
+- **You live outside RITA but pay a RITA city's tax at work** — a township (Hinckley, Sharon,
+  Bainbridge…) or a non-RITA city (Brunswick, Parma): the headline case. A refund of
+  home-worked days comes back with nothing clawed back at home (townships) or settled only
+  under your own city's rules.
+- **You live in one RITA city and work in another** — usually still worth filing. Residents of
+  **322 of RITA's 413 municipalities (78%)** keep part of a typical workplace refund, because
+  most residence credits are zero, partial, or capped: a Medina resident keeps an illustrative
+  ~1.8% of home-worked wages, Cleveland Heights ~1.5%, Bay Village ~1.0%, Strongsville ~0.5%.
+  Money is money — 0.5% of $60,000 of home-worked wages is $300 a year, and **three tax years
+  are open at any time**. The full ranked table:
+  [What residents keep](rita-10a-okf/municipalities/residence-keep-rates.md).
+- Figures are illustrative, computed from RITA's published rates table; each city's ordinance
+  controls the actual credit. The bundle links you to both.
+
 ## How to use it
 
 Point your AI (Claude, ChatGPT, or any assistant that can read files or URLs) at this repository

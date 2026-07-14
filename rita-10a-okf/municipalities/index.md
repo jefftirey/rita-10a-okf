@@ -6,7 +6,8 @@ for tax year 2026 (retrieved 2026-07-14), parsed by script; regenerate with
 `scripts/fetch_rates.py` + `scripts/gen_municipalities.py`.
 
 Special districts (JEDD/JEDZ) are listed separately in
-[JEDD, JEDZ, and other special districts](jedd-jedz-districts.md).
+[JEDD, JEDZ, and other special districts](jedd-jedz-districts.md). What a refund is worth by
+residence city: [What residents keep](residence-keep-rates.md).
 
 **Cleveland is not here**: it is administered by CCA, not RITA — see
 [RITA vs. CCA vs. self-administered](../concepts/rita-vs-cca-vs-self-administered.md).

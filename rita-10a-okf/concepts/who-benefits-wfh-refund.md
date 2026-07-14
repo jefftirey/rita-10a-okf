@@ -80,6 +80,10 @@ individual outcomes.**
    profile: [Brecksville](../municipalities/brecksville/index.md),
    [Solon](../municipalities/solon/index.md), [Hudson](../municipalities/hudson/index.md).
 
+**Every municipality, ranked:** the generated table
+[What residents keep](../municipalities/residence-keep-rates.md) computes the illustrative keep
+rate for all 413 residence cities against a 2.0% workplace city.
+
 To place a specific person: get both cities' rate, credit factor, and credit limit for the
 claim year from the [Tax Rates Table](https://www.ritaohio.com/TaxRatesTable) (or the
 [municipality sub-bundles](../municipalities/index.md)), read
