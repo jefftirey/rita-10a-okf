@@ -21,6 +21,7 @@ How the tax works. Full list: [concepts/index.md](concepts/index.md)
 - [Ohio municipal income tax basics](concepts/municipal-income-tax-basics.md) - who levies what, and the two hooks: where you live, where you work.
 - [Work-from-home rules by tax year](concepts/work-from-home-rules-by-year.md) - the hub node: three legal regimes (2020 / 2021 / 2022+) for remote-work days.
 - [Credit for taxes paid to another municipality](concepts/credit-for-taxes-paid.md) - the credit factor and credit limit, where to find them per city and year, and which documents define the computation.
+- [Who benefits most from a work-from-home refund](concepts/who-benefits-wfh-refund.md) - the directional pattern the published credit terms imply, from township residents (keep it all) to full-credit cities (little).
 - [Residence tax vs. workplace tax](concepts/residence-vs-workplace-tax.md) - the two overlapping taxes on the same paycheck.
 - [RITA vs. CCA vs. self-administered cities](concepts/rita-vs-cca-vs-self-administered.md) - Cleveland is CCA, Brunswick is neither; the form follows the administrator.
 - [Statute of limitations](concepts/statute-of-limitations.md) - the 3-year rule (ORC 718.19(B)(1)).

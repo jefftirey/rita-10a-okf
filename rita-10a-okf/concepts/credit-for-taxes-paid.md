@@ -36,7 +36,8 @@ and its FAQ states that after a workplace refund "you will likely owe that tax, 
 of it, to your residence community." So the residence city's credit terms determine the net
 outcome of any [Form 10A](../procedures/form-10a-overview.md) refund — which is why both
 municipalities' published numbers, for the right year, must be in hand before anyone quotes a
-result. See [Residence vs. workplace tax](residence-vs-workplace-tax.md) and
+result. See [Residence vs. workplace tax](residence-vs-workplace-tax.md),
+[Who benefits most from a WFH refund](who-benefits-wfh-refund.md), and
 [Amended returns](../procedures/amended-returns.md).
 
 # Citations
