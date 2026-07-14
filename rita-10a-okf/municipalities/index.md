@@ -1,0 +1,426 @@
+# Municipalities
+
+One sub-bundle per RITA member municipality — each is a directory with an index and nodes for
+the city's profile, published rates/credits, and refund mechanics. Data: RITA's Tax Rates Table
+for tax year 2026 (retrieved 2026-07-14), parsed by script; regenerate with
+`scripts/fetch_rates.py` + `scripts/gen_municipalities.py`.
+
+Special districts (JEDD/JEDZ) are listed separately in
+[JEDD, JEDZ, and other special districts](jedd-jedz-districts.md).
+
+**Cleveland is not here**: it is administered by CCA, not RITA — see
+[RITA vs. CCA vs. self-administered](../concepts/rita-vs-cca-vs-self-administered.md).
+
+- [Aberdeen](aberdeen/index.md) - RITA code 023; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Ada](ada/index.md) - RITA code 004; 1.650% rate, 100.000% credit factor, 1.650% credit limit.
+- [Addyston](addyston/index.md) - RITA code 018; 1.500% rate, 100.000% credit factor, 1.500% credit limit.
+- [Adelphi](adelphi/index.md) - RITA code 022; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Alexandria](alexandria/index.md) - RITA code 043; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Alger](alger/index.md) - RITA code 024; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Amanda](amanda/index.md) - RITA code 044; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Amsterdam](amsterdam/index.md) - RITA code 039; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Andover](andover/index.md) - RITA code 015; 1.500% rate, 100.000% credit factor, 1.500% credit limit.
+- [Antwerp](antwerp/index.md) - RITA code 031; 1.000% rate, 50.000% credit factor, 1.000% credit limit.
+- [Apple Creek](apple-creek/index.md) - RITA code 032; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Arcanum](arcanum/index.md) - RITA code 014; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Arlington Heights](arlington-heights/index.md) - RITA code 013; 2.100% rate, 100.000% credit factor, 2.100% credit limit.
+- [Ashley](ashley/index.md) - RITA code 041; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Ashville](ashville/index.md) - RITA code 006; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Aurora](aurora/index.md) - RITA code 010; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Avon](avon/index.md) - RITA code 020; 1.950% rate, 100.000% credit factor, 1.700% credit limit.
+- [Avon Lake](avon-lake/index.md) - RITA code 021; 1.500% rate, 100.000% credit factor, 1.500% credit limit.
+- [Baltic](baltic/index.md) - RITA code 033; 1.500% rate, 100.000% credit factor, 1.500% credit limit.
+- [Baltimore](baltimore/index.md) - RITA code 029; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Barberton](barberton/index.md) - RITA code 028; 2.250% rate, 100.000% credit factor, 2.250% credit limit.
+- [Barnesville](barnesville/index.md) - RITA code 034; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Batavia](batavia/index.md) - RITA code 035; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Bay Village](bay-village/index.md) - RITA code 040; 1.500% rate, 100.000% credit factor, 1.000% credit limit.
+- [Beachwood](beachwood/index.md) - RITA code 050; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Beaverdam](beaverdam/index.md) - RITA code 054; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Bedford](bedford/index.md) - RITA code 060; 3.000% rate, 100.000% credit factor, 2.250% credit limit.
+- [Bedford Heights](bedford-heights/index.md) - RITA code 065; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Bellaire](bellaire/index.md) - RITA code 085; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Belle Center](belle-center/index.md) - RITA code 083; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Bellevue](bellevue/index.md) - RITA code 086; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Bellville](bellville/index.md) - RITA code 088; 1.000% rate, 50.000% credit factor, 1.000% credit limit.
+- [Belpre](belpre/index.md) - RITA code 089; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Bentleyville](bentleyville/index.md) - RITA code 090; 1.000% rate, 12.500% credit factor, 1.000% credit limit.
+- [Berea](berea/index.md) - RITA code 100; 2.000% rate, 100.000% credit factor, 1.500% credit limit.
+- [Bethel](bethel/index.md) - RITA code 116; 1.000% rate, 75.000% credit factor, 1.000% credit limit.
+- [Bettsville](bettsville/index.md) - RITA code 102; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Beverly](beverly/index.md) - RITA code 103; 1.250% rate, 100.000% credit factor, 1.250% credit limit.
+- [Bexley](bexley/index.md) - RITA code 104; 2.500% rate, 65.000% credit factor, 2.500% credit limit.
+- [Blanchester](blanchester/index.md) - RITA code 118; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Bloomdale](bloomdale/index.md) - RITA code 096; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Bloomingdale](bloomingdale/index.md) - RITA code 095; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Bloomville](bloomville/index.md) - RITA code 123; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Boston Heights](boston-heights/index.md) - RITA code 110; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Bowerston](bowerston/index.md) - RITA code 108; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Bradford](bradford/index.md) - RITA code 112; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Bratenahl](bratenahl/index.md) - RITA code 120; 2.000% rate, 50.000% credit factor, 2.000% credit limit.
+- [Brecksville](brecksville/index.md) - RITA code 130; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Bremen](bremen/index.md) - RITA code 132; 1.000% rate, 50.000% credit factor, 1.000% credit limit.
+- [Brice](brice/index.md) - RITA code 136; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Bridgeport](bridgeport/index.md) - RITA code 156; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Broadview Heights](broadview-heights/index.md) - RITA code 140; 2.000% rate, 75.000% credit factor, 2.000% credit limit.
+- [Brooklyn](brooklyn/index.md) - RITA code 150; 2.500% rate, 100.000% credit factor, 2.500% credit limit.
+- [Brooklyn Heights](brooklyn-heights/index.md) - RITA code 160; 2.500% rate, 100.000% credit factor, 2.500% credit limit.
+- [Bryan](bryan/index.md) - RITA code 172; 1.800% rate, 100.000% credit factor, 1.800% credit limit.
+- [Buckland](buckland/index.md) - RITA code 154; 1.000% rate, 50.000% credit factor, 1.000% credit limit.
+- [Burbank](burbank/index.md) - RITA code 125; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Butler](butler/index.md) - RITA code 163; 1.000% rate, 50.000% credit factor, 1.000% credit limit.
+- [Cairo](cairo/index.md) - RITA code 162; 0.500% rate, 0.000% credit factor, 0.000% credit limit.
+- [Caldwell](caldwell/index.md) - RITA code 158; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Camden](camden/index.md) - RITA code 232; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Campbell](campbell/index.md) - RITA code 167; 2.500% rate, 100.000% credit factor, 2.500% credit limit.
+- [Canal Fulton](canal-fulton/index.md) - RITA code 177; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Canal Winchester](canal-winchester/index.md) - RITA code 175; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Cardington](cardington/index.md) - RITA code 168; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Carroll](carroll/index.md) - RITA code 202; 0.750% rate, 25.000% credit factor, 0.750% credit limit.
+- [Carrollton](carrollton/index.md) - RITA code 203; 1.000% rate, 100.000% credit factor, 0.500% credit limit.
+- [Catawba](catawba/index.md) - RITA code 204; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Cecil](cecil/index.md) - RITA code 195; 1.000% rate, 50.000% credit factor, 1.000% credit limit.
+- [Cedarville](cedarville/index.md) - RITA code 192; 1.250% rate, 100.000% credit factor, 1.250% credit limit.
+- [Centerburg](centerburg/index.md) - RITA code 194; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Chagrin Falls](chagrin-falls/index.md) - RITA code 180; 1.850% rate, 75.000% credit factor, 1.850% credit limit.
+- [Chardon](chardon/index.md) - RITA code 185; 2.000% rate, 50.000% credit factor, 2.000% credit limit.
+- [Chesterville](chesterville/index.md) - RITA code 126; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Circleville](circleville/index.md) - RITA code 190; 2.500% rate, 100.000% credit factor, 2.500% credit limit.
+- [Clarksville](clarksville/index.md) - RITA code 237; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Cleveland Heights](cleveland-heights/index.md) - RITA code 210; 2.250% rate, 50.000% credit factor, 1.000% credit limit.
+- [Clinton](clinton/index.md) - RITA code 159; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Coal Grove](coal-grove/index.md) - RITA code 207; 1.000% rate, 75.000% credit factor, 1.000% credit limit.
+- [College Corner](college-corner/index.md) - RITA code 155; 0.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Columbiana](columbiana/index.md) - RITA code 211; 1.000% rate, 100.000% credit factor, 0.500% credit limit.
+- [Commercial Point](commercial-point/index.md) - RITA code 224; 0.750% rate, 0.000% credit factor, 0.000% credit limit.
+- [Conesville](conesville/index.md) - RITA code 236; 0.500% rate, 0.000% credit factor, 0.000% credit limit.
+- [Continental](continental/index.md) - RITA code 226; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Corwin](corwin/index.md) - RITA code 223; 0.500% rate, 100.000% credit factor, 0.500% credit limit.
+- [Crestline](crestline/index.md) - RITA code 227; 2.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Creston](creston/index.md) - RITA code 228; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Crooksville](crooksville/index.md) - RITA code 230; 1.500% rate, 100.000% credit factor, 1.500% credit limit.
+- [Cuyahoga Falls](cuyahoga-falls/index.md) - RITA code 220; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Cuyahoga Heights](cuyahoga-heights/index.md) - RITA code 250; 2.500% rate, 100.000% credit factor, 2.500% credit limit.
+- [Danville](danville/index.md) - RITA code 251; 1.500% rate, 0.000% credit factor, 0.000% credit limit.
+- [Darbyville](darbyville/index.md) - RITA code 152; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [DeGraff](degraff/index.md) - RITA code 249; 1.750% rate, 0.000% credit factor, 0.000% credit limit.
+- [Dennison](dennison/index.md) - RITA code 256; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Doylestown](doylestown/index.md) - RITA code 261; 2.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Dresden](dresden/index.md) - RITA code 262; 1.000% rate, 50.000% credit factor, 1.000% credit limit.
+- [Dunkirk](dunkirk/index.md) - RITA code 264; 1.000% rate, 50.000% credit factor, 1.000% credit limit.
+- [East Cleveland](east-cleveland/index.md) - RITA code 270; 2.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [East Palestine](east-palestine/index.md) - RITA code 268; 1.500% rate, 0.000% credit factor, 0.000% credit limit.
+- [Eastlake](eastlake/index.md) - RITA code 273; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Eaton](eaton/index.md) - RITA code 246; 1.500% rate, 100.000% credit factor, 1.500% credit limit.
+- [Edgerton](edgerton/index.md) - RITA code 248; 1.750% rate, 100.000% credit factor, 1.750% credit limit.
+- [Edison](edison/index.md) - RITA code 271; 0.500% rate, 0.000% credit factor, 0.000% credit limit.
+- [Elmore](elmore/index.md) - RITA code 272; 1.750% rate, 0.000% credit factor, 0.000% credit limit.
+- [Elmwood Place](elmwood-place/index.md) - RITA code 269; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Elyria](elyria/index.md) - RITA code 277; 2.250% rate, 100.000% credit factor, 2.250% credit limit.
+- [Empire](empire/index.md) - RITA code 235; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Euclid](euclid/index.md) - RITA code 280; 2.850% rate, 100.000% credit factor, 2.850% credit limit.
+- [Fairborn](fairborn/index.md) - RITA code 287; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Fairport Harbor](fairport-harbor/index.md) - RITA code 291; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Fairview Park](fairview-park/index.md) - RITA code 300; 2.000% rate, 75.000% credit factor, 1.250% credit limit.
+- [Fayette](fayette/index.md) - RITA code 295; 1.500% rate, 50.000% credit factor, 1.500% credit limit.
+- [Fayetteville](fayetteville/index.md) - RITA code 242; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Felicity](felicity/index.md) - RITA code 296; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Forest](forest/index.md) - RITA code 297; 1.250% rate, 0.000% credit factor, 0.000% credit limit.
+- [Fort Jennings](fort-jennings/index.md) - RITA code 304; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Fostoria](fostoria/index.md) - RITA code 305; 2.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Frazeysburg](frazeysburg/index.md) - RITA code 309; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Fredericktown](fredericktown/index.md) - RITA code 308; 1.000% rate, 50.000% credit factor, 1.000% credit limit.
+- [Fremont](fremont/index.md) - RITA code 310; 1.500% rate, 100.000% credit factor, 1.500% credit limit.
+- [Fulton](fulton/index.md) - RITA code 143; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Gahanna](gahanna/index.md) - RITA code 316; 2.500% rate, 100.000% credit factor, 2.500% credit limit.
+- [Galena](galena/index.md) - RITA code 319; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Galion](galion/index.md) - RITA code 317; 2.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Garfield Heights](garfield-heights/index.md) - RITA code 320; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Gates Mills](gates-mills/index.md) - RITA code 330; 1.000% rate, 50.000% credit factor, 1.000% credit limit.
+- [Genoa](genoa/index.md) - RITA code 348; 1.500% rate, 100.000% credit factor, 0.500% credit limit.
+- [Germantown](germantown/index.md) - RITA code 353; 1.500% rate, 60.000% credit factor, 1.500% credit limit.
+- [Gettysburg](gettysburg/index.md) - RITA code 679; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Gibsonburg](gibsonburg/index.md) - RITA code 342; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Girard](girard/index.md) - RITA code 346; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Glenmont](glenmont/index.md) - RITA code 138; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Glenwillow](glenwillow/index.md) - RITA code 347; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Golf Manor](golf-manor/index.md) - RITA code 332; 1.700% rate, 100.000% credit factor, 1.700% credit limit.
+- [Grafton](grafton/index.md) - RITA code 350; 1.500% rate, 100.000% credit factor, 1.500% credit limit.
+- [Grandview Heights](grandview-heights/index.md) - RITA code 357; 2.500% rate, 100.000% credit factor, 2.500% credit limit.
+- [Gratis](gratis/index.md) - RITA code 294; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Green Springs](green-springs/index.md) - RITA code 333; 1.000% rate, 50.000% credit factor, 1.000% credit limit.
+- [Greenfield](greenfield/index.md) - RITA code 334; 1.625% rate, 100.000% credit factor, 1.625% credit limit.
+- [Greenhills](greenhills/index.md) - RITA code 337; 1.500% rate, 100.000% credit factor, 0.500% credit limit.
+- [Grove City](grove-city/index.md) - RITA code 358; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Groveport](groveport/index.md) - RITA code 361; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Hamersville](hamersville/index.md) - RITA code 921; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Hamilton](hamilton/index.md) - RITA code 360; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Hanging Rock](hanging-rock/index.md) - RITA code 616; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Hanover](hanover/index.md) - RITA code 238; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Harrisburg](harrisburg/index.md) - RITA code 325; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Harrison](harrison/index.md) - RITA code 339; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Harrod](harrod/index.md) - RITA code 326; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Haskins](haskins/index.md) - RITA code 364; 1.000% rate, 50.000% credit factor, 1.000% credit limit.
+- [Helena](helena/index.md) - RITA code 683; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Highland Heights](highland-heights/index.md) - RITA code 370; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Hilliard](hilliard/index.md) - RITA code 371; 2.500% rate, 100.000% credit factor, 2.500% credit limit.
+- [Hiram](hiram/index.md) - RITA code 375; 2.250% rate, 100.000% credit factor, 1.250% credit limit.
+- [Holland](holland/index.md) - RITA code 381; 2.250% rate, 100.000% credit factor, 2.250% credit limit.
+- [Holmesville](holmesville/index.md) - RITA code 328; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Hopedale](hopedale/index.md) - RITA code 431; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Hudson](hudson/index.md) - RITA code 378; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Hunting Valley](hunting-valley/index.md) - RITA code 380; 0.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Huron](huron/index.md) - RITA code 385; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Independence](independence/index.md) - RITA code 390; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Jackson](jackson/index.md) - RITA code 374; 1.500% rate, 100.000% credit factor, 1.000% credit limit.
+- [Jackson Center](jackson-center/index.md) - RITA code 340; 1.500% rate, 100.000% credit factor, 1.500% credit limit.
+- [Jeffersonville](jeffersonville/index.md) - RITA code 438; 1.000% rate, 50.000% credit factor, 1.000% credit limit.
+- [Jerry City](jerry-city/index.md) - RITA code 313; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Jewett](jewett/index.md) - RITA code 377; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Johnstown](johnstown/index.md) - RITA code 386; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Kent](kent/index.md) - RITA code 392; 2.250% rate, 100.000% credit factor, 2.250% credit limit.
+- [Killbuck](killbuck/index.md) - RITA code 412; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Kirkersville](kirkersville/index.md) - RITA code 681; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Kirtland](kirtland/index.md) - RITA code 394; 2.000% rate, 100.000% credit factor, 1.750% credit limit.
+- [LaGrange](lagrange/index.md) - RITA code 398; 1.500% rate, 100.000% credit factor, 1.500% credit limit.
+- [Lakeline](lakeline/index.md) - RITA code 327; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Lakemore](lakemore/index.md) - RITA code 401; 2.250% rate, 100.000% credit factor, 2.250% credit limit.
+- [Latty](latty/index.md) - RITA code 684; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Leesburg](leesburg/index.md) - RITA code 411; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Leetonia](leetonia/index.md) - RITA code 443; 1.500% rate, 50.000% credit factor, 1.000% credit limit.
+- [Lewisburg](lewisburg/index.md) - RITA code 408; 1.750% rate, 100.000% credit factor, 1.750% credit limit.
+- [Liberty Center](liberty-center/index.md) - RITA code 444; 1.000% rate, 50.000% credit factor, 1.000% credit limit.
+- [Lincoln Heights](lincoln-heights/index.md) - RITA code 419; 2.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Lithopolis](lithopolis/index.md) - RITA code 424; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Lockbourne](lockbourne/index.md) - RITA code 427; 2.500% rate, 100.000% credit factor, 1.500% credit limit.
+- [Lockington](lockington/index.md) - RITA code 693; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Lockland](lockland/index.md) - RITA code 426; 2.100% rate, 100.000% credit factor, 2.100% credit limit.
+- [Lodi](lodi/index.md) - RITA code 422; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Loveland](loveland/index.md) - RITA code 436; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Lowellville](lowellville/index.md) - RITA code 445; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Lyndhurst](lyndhurst/index.md) - RITA code 440; 2.000% rate, 50.000% credit factor, 2.000% credit limit.
+- [Lyons](lyons/index.md) - RITA code 689; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Macedonia](macedonia/index.md) - RITA code 450; 2.500% rate, 100.000% credit factor, 2.500% credit limit.
+- [Madison Village](madison-village/index.md) - RITA code 452; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Maineville](maineville/index.md) - RITA code 454; 1.000% rate, 50.000% credit factor, 1.000% credit limit.
+- [Malinta](malinta/index.md) - RITA code 448; 1.000% rate, 50.000% credit factor, 1.000% credit limit.
+- [Malvern](malvern/index.md) - RITA code 455; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Manchester](manchester/index.md) - RITA code 456; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Mantua Village](mantua-village/index.md) - RITA code 459; 2.000% rate, 100.000% credit factor, 0.500% credit limit.
+- [Maple Heights](maple-heights/index.md) - RITA code 460; 2.500% rate, 100.000% credit factor, 2.500% credit limit.
+- [Marengo](marengo/index.md) - RITA code 690; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Martins Ferry](martins-ferry/index.md) - RITA code 466; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Mayfield Heights](mayfield-heights/index.md) - RITA code 480; 1.500% rate, 100.000% credit factor, 1.500% credit limit.
+- [Mayfield Village](mayfield-village/index.md) - RITA code 485; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [McClure](mcclure/index.md) - RITA code 475; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [McDonald](mcdonald/index.md) - RITA code 478; 2.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Mechanicsburg](mechanicsburg/index.md) - RITA code 486; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Medina](medina/index.md) - RITA code 487; 1.250% rate, 25.000% credit factor, 0.750% credit limit.
+- [Melrose](melrose/index.md) - RITA code 489; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Mentor](mentor/index.md) - RITA code 490; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Metamora](metamora/index.md) - RITA code 496; 1.000% rate, 50.000% credit factor, 1.000% credit limit.
+- [Middle Point](middle-point/index.md) - RITA code 499; 1.500% rate, 100.000% credit factor, 1.000% credit limit.
+- [Middleburg Heights](middleburg-heights/index.md) - RITA code 500; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Middleport](middleport/index.md) - RITA code 503; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Midvale](midvale/index.md) - RITA code 512; 1.500% rate, 100.000% credit factor, 1.500% credit limit.
+- [Mifflin](mifflin/index.md) - RITA code 501; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Milan](milan/index.md) - RITA code 505; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Milford](milford/index.md) - RITA code 513; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Milford Center](milford-center/index.md) - RITA code 507; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Millbury](millbury/index.md) - RITA code 468; 1.500% rate, 100.000% credit factor, 0.500% credit limit.
+- [Miller City](miller-city/index.md) - RITA code 558; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Millersport](millersport/index.md) - RITA code 692; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Millville](millville/index.md) - RITA code 691; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Mineral City](mineral-city/index.md) - RITA code 502; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Minerva](minerva/index.md) - RITA code 514; 1.500% rate, 100.000% credit factor, 1.500% credit limit.
+- [Minerva Park](minerva-park/index.md) - RITA code 509; 2.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Mingo Junction](mingo-junction/index.md) - RITA code 508; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Mogadore](mogadore/index.md) - RITA code 515; 2.500% rate, 100.000% credit factor, 2.500% credit limit.
+- [Monroeville](monroeville/index.md) - RITA code 516; 1.000% rate, 75.000% credit factor, 1.000% credit limit.
+- [Montgomery](montgomery/index.md) - RITA code 517; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Moreland Hills](moreland-hills/index.md) - RITA code 520; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Morral](morral/index.md) - RITA code 617; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Moscow](moscow/index.md) - RITA code 479; 0.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Mount Eaton](mount-eaton/index.md) - RITA code 482; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Mount Sterling](mount-sterling/index.md) - RITA code 528; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Mount Victory](mount-victory/index.md) - RITA code 331; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Mt Healthy](mt-healthy/index.md) - RITA code 527; 2.000% rate, 100.000% credit factor, 1.600% credit limit.
+- [Napoleon](napoleon/index.md) - RITA code 529; 1.500% rate, 70.000% credit factor, 1.500% credit limit.
+- [Nashville](nashville/index.md) - RITA code 698; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Nelsonville](nelsonville/index.md) - RITA code 553; 1.750% rate, 100.000% credit factor, 0.500% credit limit.
+- [New Albany](new-albany/index.md) - RITA code 535; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [New Bavaria](new-bavaria/index.md) - RITA code 568; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [New Bloomington](new-bloomington/index.md) - RITA code 504; 1.000% rate, 50.000% credit factor, 1.000% credit limit.
+- [New Boston](new-boston/index.md) - RITA code 484; 2.500% rate, 100.000% credit factor, 2.500% credit limit.
+- [New Concord](new-concord/index.md) - RITA code 537; 2.250% rate, 100.000% credit factor, 2.250% credit limit.
+- [New Franklin](new-franklin/index.md) - RITA code 554; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [New Lebanon](new-lebanon/index.md) - RITA code 544; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [New Lexington](new-lexington/index.md) - RITA code 493; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [New Richmond](new-richmond/index.md) - RITA code 524; 1.000% rate, 50.000% credit factor, 1.000% credit limit.
+- [New Riegel](new-riegel/index.md) - RITA code 602; 1.000% rate, 100.000% credit factor, 0.500% credit limit.
+- [New Washington](new-washington/index.md) - RITA code 556; 1.500% rate, 100.000% credit factor, 0.750% credit limit.
+- [New Waterford](new-waterford/index.md) - RITA code 525; 1.000% rate, 50.000% credit factor, 1.000% credit limit.
+- [Newburgh Heights](newburgh-heights/index.md) - RITA code 540; 2.000% rate, 75.000% credit factor, 1.000% credit limit.
+- [Newcomerstown](newcomerstown/index.md) - RITA code 562; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Newton Falls](newton-falls/index.md) - RITA code 547; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Newtown](newtown/index.md) - RITA code 561; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Ney](ney/index.md) - RITA code 677; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Niles](niles/index.md) - RITA code 539; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [North Canton](north-canton/index.md) - RITA code 546; 2.000% rate, 100.000% credit factor, 1.500% credit limit.
+- [North College Hill](north-college-hill/index.md) - RITA code 563; 1.500% rate, 0.000% credit factor, 0.000% credit limit.
+- [North Hampton](north-hampton/index.md) - RITA code 695; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [North Lewisburg](north-lewisburg/index.md) - RITA code 549; 1.750% rate, 0.000% credit factor, 0.000% credit limit.
+- [North Olmsted](north-olmsted/index.md) - RITA code 550; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [North Perry](north-perry/index.md) - RITA code 552; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [North Ridgeville](north-ridgeville/index.md) - RITA code 565; 1.000% rate, 10.000% credit factor, 1.000% credit limit.
+- [North Robinson](north-robinson/index.md) - RITA code 621; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [North Royalton](north-royalton/index.md) - RITA code 570; 2.000% rate, 100.000% credit factor, 1.250% credit limit.
+- [Northfield Village](northfield-village/index.md) - RITA code 545; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Northwood](northwood/index.md) - RITA code 567; 1.500% rate, 100.000% credit factor, 1.500% credit limit.
+- [Norton](norton/index.md) - RITA code 572; 2.000% rate, 100.000% credit factor, 1.500% credit limit.
+- [Norwalk](norwalk/index.md) - RITA code 573; 1.500% rate, 100.000% credit factor, 1.500% credit limit.
+- [Oak Harbor](oak-harbor/index.md) - RITA code 579; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Oak Hill](oak-hill/index.md) - RITA code 624; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Oakwood](oakwood/index.md) - RITA code 580; 2.500% rate, 100.000% credit factor, 2.500% credit limit.
+- [Oberlin](oberlin/index.md) - RITA code 585; 2.500% rate, 100.000% credit factor, 2.500% credit limit.
+- [Octa](octa/index.md) - RITA code 569; 1.000% rate, 50.000% credit factor, 1.000% credit limit.
+- [Olmsted Falls](olmsted-falls/index.md) - RITA code 590; 1.500% rate, 50.000% credit factor, 1.500% credit limit.
+- [Orange](orange/index.md) - RITA code 600; 2.000% rate, 60.000% credit factor, 1.500% credit limit.
+- [Orrville](orrville/index.md) - RITA code 604; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Ostrander](ostrander/index.md) - RITA code 608; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Ottawa](ottawa/index.md) - RITA code 606; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Ottawa Hills](ottawa-hills/index.md) - RITA code 607; 1.500% rate, 50.000% credit factor, 1.500% credit limit.
+- [Owensville](owensville/index.md) - RITA code 578; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Oxford](oxford/index.md) - RITA code 609; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Painesville](painesville/index.md) - RITA code 610; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Parma Heights](parma-heights/index.md) - RITA code 630; 3.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Pataskala](pataskala/index.md) - RITA code 619; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Patterson](patterson/index.md) - RITA code 674; 0.500% rate, 0.000% credit factor, 0.000% credit limit.
+- [Payne](payne/index.md) - RITA code 718; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Pemberville](pemberville/index.md) - RITA code 632; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Peninsula](peninsula/index.md) - RITA code 631; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Pepper Pike](pepper-pike/index.md) - RITA code 650; 1.000% rate, 50.000% credit factor, 1.000% credit limit.
+- [Perry](perry/index.md) - RITA code 654; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Piketon](piketon/index.md) - RITA code 637; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Piqua](piqua/index.md) - RITA code 651; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Pleasant Hill](pleasant-hill/index.md) - RITA code 641; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Pleasantville](pleasantville/index.md) - RITA code 642; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Pomeroy](pomeroy/index.md) - RITA code 584; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Portage](portage/index.md) - RITA code 644; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Powell](powell/index.md) - RITA code 648; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Powhatan Point](powhatan-point/index.md) - RITA code 645; 1.000% rate, 50.000% credit factor, 1.000% credit limit.
+- [Quincy](quincy/index.md) - RITA code 643; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Ravenna](ravenna/index.md) - RITA code 657; 2.500% rate, 100.000% credit factor, 2.500% credit limit.
+- [Reminderville](reminderville/index.md) - RITA code 660; 1.500% rate, 0.000% credit factor, 0.000% credit limit.
+- [Reynoldsburg](reynoldsburg/index.md) - RITA code 662; 2.500% rate, 100.000% credit factor, 2.500% credit limit.
+- [Richmond Heights](richmond-heights/index.md) - RITA code 670; 2.250% rate, 100.000% credit factor, 1.250% credit limit.
+- [Richwood](richwood/index.md) - RITA code 671; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Ridgeway](ridgeway/index.md) - RITA code 669; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Rio Grande](rio-grande/index.md) - RITA code 588; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Ripley](ripley/index.md) - RITA code 672; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Risingsun](risingsun/index.md) - RITA code 682; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Rittman](rittman/index.md) - RITA code 673; 1.500% rate, 0.000% credit factor, 0.000% credit limit.
+- [Rocky River](rocky-river/index.md) - RITA code 700; 2.000% rate, 100.000% credit factor, 1.500% credit limit.
+- [Rossford](rossford/index.md) - RITA code 703; 2.250% rate, 100.000% credit factor, 2.250% credit limit.
+- [Rushville](rushville/index.md) - RITA code 696; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Rutland](rutland/index.md) - RITA code 724; 1.000% rate, 75.000% credit factor, 1.000% credit limit.
+- [Sabina](sabina/index.md) - RITA code 704; 1.500% rate, 50.000% credit factor, 1.500% credit limit.
+- [Saint Clairsville](saint-clairsville/index.md) - RITA code 701; 0.750% rate, 50.000% credit factor, 0.750% credit limit.
+- [Saint Paris](saint-paris/index.md) - RITA code 707; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Salem](salem/index.md) - RITA code 709; 1.250% rate, 100.000% credit factor, 1.250% credit limit.
+- [Salineville](salineville/index.md) - RITA code 712; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Sandusky](sandusky/index.md) - RITA code 710; 1.250% rate, 0.000% credit factor, 0.000% credit limit.
+- [Sardinia](sardinia/index.md) - RITA code 711; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Sebring](sebring/index.md) - RITA code 713; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Seven Hills](seven-hills/index.md) - RITA code 720; 2.500% rate, 100.000% credit factor, 1.650% credit limit.
+- [Shaker Heights](shaker-heights/index.md) - RITA code 750; 2.250% rate, 50.000% credit factor, 1.000% credit limit.
+- [Shawnee Hills](shawnee-hills/index.md) - RITA code 749; 2.000% rate, 100.000% credit factor, 1.750% credit limit.
+- [Sheffield Lake](sheffield-lake/index.md) - RITA code 751; 2.000% rate, 50.000% credit factor, 1.000% credit limit.
+- [Sheffield Village](sheffield-village/index.md) - RITA code 752; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Silver Lake](silver-lake/index.md) - RITA code 756; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Silverton](silverton/index.md) - RITA code 757; 1.250% rate, 0.000% credit factor, 0.000% credit limit.
+- [Smithville](smithville/index.md) - RITA code 758; 1.500% rate, 100.000% credit factor, 0.500% credit limit.
+- [Solon](solon/index.md) - RITA code 760; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [South Amherst](south-amherst/index.md) - RITA code 765; 1.000% rate, 100.000% credit factor, 0.100% credit limit.
+- [South Bloomfield](south-bloomfield/index.md) - RITA code 767; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [South Charleston](south-charleston/index.md) - RITA code 763; 1.250% rate, 100.000% credit factor, 1.250% credit limit.
+- [South Euclid](south-euclid/index.md) - RITA code 770; 2.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [South Solon](south-solon/index.md) - RITA code 769; 1.000% rate, 100.000% credit factor, 0.500% credit limit.
+- [South Vienna](south-vienna/index.md) - RITA code 725; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Spencerville](spencerville/index.md) - RITA code 762; 1.500% rate, 100.000% credit factor, 1.500% credit limit.
+- [Springdale](springdale/index.md) - RITA code 735; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Springfield](springfield/index.md) - RITA code 773; 2.400% rate, 50.000% credit factor, 2.400% credit limit.
+- [St. Louisville](st-louisville/index.md) - RITA code 857; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Steubenville](steubenville/index.md) - RITA code 776; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Stockport](stockport/index.md) - RITA code 719; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Stone Creek](stone-creek/index.md) - RITA code 738; 1.000% rate, 100.000% credit factor, 0.750% credit limit.
+- [Stoutsville](stoutsville/index.md) - RITA code 876; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Stratton](stratton/index.md) - RITA code 764; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Streetsboro](streetsboro/index.md) - RITA code 775; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Strongsville](strongsville/index.md) - RITA code 780; 2.000% rate, 75.000% credit factor, 2.000% credit limit.
+- [Sugar Grove](sugar-grove/index.md) - RITA code 742; 0.750% rate, 50.000% credit factor, 0.750% credit limit.
+- [Sugarcreek](sugarcreek/index.md) - RITA code 733; 1.500% rate, 100.000% credit factor, 1.500% credit limit.
+- [Sunbury](sunbury/index.md) - RITA code 779; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Swanton](swanton/index.md) - RITA code 784; 1.500% rate, 50.000% credit factor, 1.000% credit limit.
+- [Sycamore](sycamore/index.md) - RITA code 785; 1.000% rate, 50.000% credit factor, 1.000% credit limit.
+- [Tallmadge](tallmadge/index.md) - RITA code 783; 2.250% rate, 100.000% credit factor, 2.250% credit limit.
+- [Thurston](thurston/index.md) - RITA code 728; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Timberlake](timberlake/index.md) - RITA code 788; 2.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Tiro](tiro/index.md) - RITA code 727; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Tontogany](tontogany/index.md) - RITA code 794; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Toronto](toronto/index.md) - RITA code 792; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Tremont City](tremont-city/index.md) - RITA code 801; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Trenton](trenton/index.md) - RITA code 746; 1.500% rate, 100.000% credit factor, 1.500% credit limit.
+- [Trimble](trimble/index.md) - RITA code 855; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Tuscarawas](tuscarawas/index.md) - RITA code 799; 1.500% rate, 100.000% credit factor, 1.500% credit limit.
+- [Twinsburg](twinsburg/index.md) - RITA code 790; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Uhrichsville](uhrichsville/index.md) - RITA code 797; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Union City](union-city/index.md) - RITA code 747; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [University Heights](university-heights/index.md) - RITA code 800; 2.500% rate, 100.000% credit factor, 1.000% credit limit.
+- [Upper Arlington](upper-arlington/index.md) - RITA code 802; 2.500% rate, 100.000% credit factor, 2.500% credit limit.
+- [Urbana](urbana/index.md) - RITA code 805; 1.400% rate, 100.000% credit factor, 1.000% credit limit.
+- [Urbancrest](urbancrest/index.md) - RITA code 806; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Utica](utica/index.md) - RITA code 807; 1.750% rate, 100.000% credit factor, 0.500% credit limit.
+- [Valley View](valley-view/index.md) - RITA code 810; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Valleyview](valleyview/index.md) - RITA code 743; 0.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Vermilion](vermilion/index.md) - RITA code 815; 1.500% rate, 100.000% credit factor, 1.000% credit limit.
+- [Wadsworth](wadsworth/index.md) - RITA code 818; 1.400% rate, 100.000% credit factor, 1.000% credit limit.
+- [Wakeman](wakeman/index.md) - RITA code 821; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Walton Hills](walton-hills/index.md) - RITA code 820; 2.500% rate, 100.000% credit factor, 2.500% credit limit.
+- [Warrensville Heights](warrensville-heights/index.md) - RITA code 830; 2.600% rate, 50.000% credit factor, 2.600% credit limit.
+- [Warsaw](warsaw/index.md) - RITA code 861; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Washingtonville](washingtonville/index.md) - RITA code 909; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Waterville](waterville/index.md) - RITA code 808; 2.000% rate, 100.000% credit factor, 1.500% credit limit.
+- [Wayne Lakes](wayne-lakes/index.md) - RITA code 916; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Waynesfield](waynesfield/index.md) - RITA code 813; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Waynesville](waynesville/index.md) - RITA code 827; 0.750% rate, 0.000% credit factor, 0.000% credit limit.
+- [Wellington](wellington/index.md) - RITA code 833; 1.750% rate, 100.000% credit factor, 1.750% credit limit.
+- [Wellston](wellston/index.md) - RITA code 834; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Wellsville](wellsville/index.md) - RITA code 839; 1.500% rate, 50.000% credit factor, 1.500% credit limit.
+- [West Alexandria](west-alexandria/index.md) - RITA code 814; 1.000% rate, 100.000% credit factor, 0.500% credit limit.
+- [West Elkton](west-elkton/index.md) - RITA code 841; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [West Lafayette](west-lafayette/index.md) - RITA code 817; 1.500% rate, 100.000% credit factor, 0.750% credit limit.
+- [West Liberty](west-liberty/index.md) - RITA code 858; 1.000% rate, 100.000% credit factor, 0.500% credit limit.
+- [West Mansfield](west-mansfield/index.md) - RITA code 850; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [West Salem](west-salem/index.md) - RITA code 825; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [West Unity](west-unity/index.md) - RITA code 847; 1.500% rate, 100.000% credit factor, 1.500% credit limit.
+- [Westlake](westlake/index.md) - RITA code 840; 1.500% rate, 100.000% credit factor, 1.500% credit limit.
+- [Weston](weston/index.md) - RITA code 842; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Whitehouse](whitehouse/index.md) - RITA code 848; 1.500% rate, 100.000% credit factor, 0.750% credit limit.
+- [Wickliffe](wickliffe/index.md) - RITA code 860; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Williamsburg](williamsburg/index.md) - RITA code 864; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Williamsport](williamsport/index.md) - RITA code 866; 0.500% rate, 0.000% credit factor, 0.000% credit limit.
+- [Willoughby](willoughby/index.md) - RITA code 870; 2.000% rate, 100.000% credit factor, 2.000% credit limit.
+- [Willoughby Hills](willoughby-hills/index.md) - RITA code 880; 2.000% rate, 100.000% credit factor, 1.500% credit limit.
+- [Willowick](willowick/index.md) - RITA code 890; 2.000% rate, 87.500% credit factor, 2.000% credit limit.
+- [Willshire](willshire/index.md) - RITA code 892; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Windham](windham/index.md) - RITA code 893; 1.500% rate, 100.000% credit factor, 0.500% credit limit.
+- [Wintersville](wintersville/index.md) - RITA code 894; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Woodlawn](woodlawn/index.md) - RITA code 896; 2.300% rate, 100.000% credit factor, 2.300% credit limit.
+- [Woodmere](woodmere/index.md) - RITA code 900; 2.500% rate, 100.000% credit factor, 2.500% credit limit.
+- [Woodsfield](woodsfield/index.md) - RITA code 899; 1.000% rate, 100.000% credit factor, 1.000% credit limit.
+- [Woodstock](woodstock/index.md) - RITA code 901; 1.000% rate, 0.000% credit factor, 0.000% credit limit.
+- [Worthington](worthington/index.md) - RITA code 904; 2.500% rate, 100.000% credit factor, 2.500% credit limit.
+- [Xenia](xenia/index.md) - RITA code 905; 2.250% rate, 100.000% credit factor, 1.500% credit limit.
+- [Yellow Springs](yellow-springs/index.md) - RITA code 906; 1.500% rate, 50.000% credit factor, 1.500% credit limit.
+- [Youngstown](youngstown/index.md) - RITA code 907; 2.750% rate, 100.000% credit factor, 2.750% credit limit.

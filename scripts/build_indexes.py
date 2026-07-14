@@ -60,4 +60,4 @@ def build(root: Path) -> None:
 
 
 if __name__ == "__main__":
-    build(Path(sys.argv[1]) if len(sys.argv) > 1 else Path.cwd())
+    build(Path(sys.argv[1]) if len(sys.argv) > 1 else Path(__file__).resolve().parent.parent / "rita-10a-okf")

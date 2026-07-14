@@ -1,6 +1,6 @@
 # Local reference copies of source PDFs (public law + RITA agency documents).
 # Cited by URL in sources/SOURCES.md; not republished here.
-sources/raw/
+rita-10a-okf/sources/raw/
 
 # Internal planning/working documents — not part of the public bundle.
 HANDOFF.md
