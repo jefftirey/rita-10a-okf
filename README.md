@@ -17,7 +17,7 @@ and ask your question in plain English:
 > "I live in Medina and worked from home 3 days a week in 2024 while my employer withheld
 > Cleveland-area city tax. Am I owed anything?"
 
-Your assistant reads `index.md`, walks to the relevant pages, and briefs you — with citations to
+Your assistant starts at **[index.md](index.md)**, walks to the relevant pages, and briefs you — with citations to
 the actual law, RITA's own publications, and your municipality's real rates. You confirm anything
 that matters with RITA or a tax preparer.
 
