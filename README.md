@@ -61,3 +61,12 @@ This bundle briefs; it does not advise. Nothing here is tax, legal, or financial
 rules are year-specific and change; every page states which tax years it applies to and when its
 facts were last verified. Confirm anything you plan to act on with RITA
 ([ritaohio.com](https://www.ritaohio.com), 800-860-7482) or a qualified tax preparer.
+
+## Created by
+
+Built by **[Jeff Tirey](https://github.com/jefftirey)** — a Northeast Ohio local — as a working
+demonstration of public knowledge that your AI can actually read: indexed, cited, and
+maintained from primary sources. Jeff builds AI systems for real-world businesses at
+**[thalatta.ai](https://thalatta.ai)**.
+
+Corrections and contributions welcome — open an issue.
