@@ -5,7 +5,10 @@ okf_version: "0.1"
 # RITA Municipal Income Tax & Form 10A Refunds — Knowledge Bundle
 
 **Scope:** municipal income tax administered by RITA (the Regional Income Tax Agency, Ohio) and
-refund claims on **Form 10A**. Facts were verified against primary sources on **2026-07-14**;
+refund claims on **Form 10A**. It especially serves people who **pay a RITA municipality's tax
+through workplace withholding while living somewhere else** — a township or a non-RITA city —
+for whom a refund of days worked at home claws nothing back at home. Facts were verified
+against primary sources on **2026-07-14**;
 every node cites its sources and states which tax years it covers (`tax_years` frontmatter).
 This bundle briefs and links to the authoritative documents; it does not advise or compute.
 
@@ -13,7 +16,7 @@ This bundle briefs and links to the authoritative documents; it does not advise 
 
 - [This bundle briefs, it does not advise](concepts/not-tax-advice.md) - the rules of engagement: cite, state the year, route final decisions to RITA or a preparer.
 - [Open claim windows (living table, verified 2026-07-14)](concepts/open-claim-windows.md) - which tax years are still claimable; as of July 2026 that is 2023, 2024, and 2025.
-- [Can I benefit? Who gains from a work-from-home refund](concepts/who-benefits-wfh-refund.md) - usually yes: against a typical 2.0% workplace city, residents of 322 of 413 RITA municipalities (78%) have something to gain; townships keep it all.
+- [Can I benefit? Who gains from a work-from-home refund](concepts/who-benefits-wfh-refund.md) - clearest winners: people who live outside RITA (township or non-RITA city) but pay a RITA city's tax through work; even RITA-to-RITA residents usually gain (322 of 413 cities).
 
 ## Concepts
 

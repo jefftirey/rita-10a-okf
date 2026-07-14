@@ -1,7 +1,7 @@
 ---
 type: Concept
 title: Can I benefit? Who gains from a work-from-home refund
-description: For most RITA residents, yes - against a typical 2.0% workplace city, residents of 322 of 413 member municipalities (78%) net a real benefit; the ranking runs from townships (keep it all) to full-credit cities (little).
+description: The clearest winners live outside RITA but pay a RITA city's tax through work - townships keep the whole refund, non-RITA-city residents settle only with their own city; even RITA-to-RITA residents usually gain (322 of 413 cities vs a 2.0% workplace).
 resource: https://www.ritaohio.com/TaxRatesTable
 tags: [concept, work-from-home, credit]
 timestamp: 2026-07-14T00:00:00Z
@@ -11,10 +11,26 @@ source: "Pattern implied by RITA Tax Rates Table (2026) + RITA 10A instructions/
 
 # Can I benefit? Who gains from a work-from-home refund
 
-## The short answer: usually, yes — even RITA-city to RITA-city
+## The short answer
 
-Counting rows in RITA's published 2026 Tax Rates Table (413 member municipalities;
-reproducible from the table itself):
+**The clearest beneficiaries live outside RITA but pay into it**: people whose employer
+withholds tax for a RITA workplace municipality while they live somewhere that tax doesn't
+follow them home. The Form 10A days-worked-out claim is *inherently* a non-resident's claim —
+RITA's Rules & Regulations §9(F): days-out refunds from a workplace municipality "are available
+only to non-residents" of it. Not living in a RITA city is no barrier; it's the typical profile.
+
+- **Township and unincorporated-area residents** (e.g., Hinckley Township): no residence
+  municipal tax exists, so a refund of workplace withholding for days worked at home is
+  **pure recovery** — no city claws any of it back. See
+  [Townships](townships-and-unincorporated.md).
+- **Residents of non-RITA cities** (e.g., Brunswick): RITA's Form 10A still refunds the RITA
+  workplace city's withholding; whatever happens next follows their own city's credit rules,
+  handled with their own city's tax department, outside RITA's process. See
+  [the Brunswick scenario](../scenarios/brunswick-resident-wrong-agency.md).
+
+**Living in one RITA city and working in another usually still gains something.** Counting rows
+in RITA's published 2026 Tax Rates Table (413 member municipalities; reproducible from the
+table itself):
 
 - **132 municipalities publish a 0% credit factor** — no credit for workplace taxes at all.
   Their residents keep essentially the entire workplace refund.

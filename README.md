@@ -3,7 +3,10 @@
 If you live or work in Northeast Ohio, chances are a chunk of your paycheck goes to municipal
 income tax through **RITA** (the Regional Income Tax Agency). If you work from home some or all
 of the time — or your employer withholds for a city you don't actually work in — you may be owed
-a refund, claimed on **Form 10A**. Most people never file it.
+a refund, claimed on **Form 10A**. Most people never file it. The clearest winners are people
+who **live outside RITA — in a township or a non-RITA city — while a RITA municipality's tax is
+withheld from their paycheck at work**: for them, a refund of home-worked days is money nobody
+claws back.
 
 This repository is a knowledge bundle about exactly that: RITA municipal income tax, who owes
 what to which city, and how Form 10A refunds work — **written to be read by your AI assistant,
