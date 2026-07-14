@@ -1,0 +1,49 @@
+# RITA Form 10A — a knowledge bundle for your AI
+
+If you live or work in Northeast Ohio, chances are a chunk of your paycheck goes to municipal
+income tax through **RITA** (the Regional Income Tax Agency). If you work from home some or all
+of the time — or your employer withholds for a city you don't actually work in — you may be owed
+a refund, claimed on **Form 10A**. Most people never file it.
+
+This repository is a knowledge bundle about exactly that: RITA municipal income tax, who owes
+what to which city, and how Form 10A refunds work — **written to be read by your AI assistant,
+not by you**.
+
+## How to use it
+
+Point your AI (Claude, ChatGPT, or any assistant that can read files or URLs) at this repository
+and ask your question in plain English:
+
+> "I live in Medina and worked from home 3 days a week in 2024 while my employer withheld
+> Cleveland-area city tax. Am I owed anything?"
+
+Your assistant reads `index.md`, walks to the relevant pages, and briefs you — with citations to
+the actual law, RITA's own publications, and your municipality's real rates. You confirm anything
+that matters with RITA or a tax preparer.
+
+## What's in here
+
+- Plain-language explanations of how Ohio municipal income tax works (residence vs. workplace,
+  credits, the 20-day rule, why townships are different).
+- The Form 10A refund procedures, step by step, including the work-from-home scenario.
+- Per-municipality pages with each RITA member's actual tax rate and credit.
+- The law behind it (Ohio Revised Code Chapter 718, the 2020–2021 pandemic rules, and the
+  court decisions that settled them).
+- Worked example scenarios.
+
+**Every factual claim is cited.** The full research log — every source URL and the date it was
+retrieved — is in [sources/SOURCES.md](sources/SOURCES.md).
+
+## Format
+
+The bundle uses the [Open Knowledge Format (OKF) v0.1](https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf):
+a plain directory of markdown files with YAML frontmatter and per-directory indexes, designed so
+AI agents can navigate knowledge the way you'd browse a well-organized binder. No special tooling
+required — it's just files.
+
+## Not tax advice
+
+This bundle briefs; it does not advise. Nothing here is tax, legal, or financial advice. Tax
+rules are year-specific and change; every page states which tax years it applies to and when its
+facts were last verified. Confirm anything you plan to act on with RITA
+([ritaohio.com](https://www.ritaohio.com), 800-860-7482) or a qualified tax preparer.
