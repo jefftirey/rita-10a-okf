@@ -53,7 +53,10 @@ Full list: [law/index.md](law/index.md)
 One sub-bundle per RITA member municipality — **413 cities and villages**, generated from
 RITA's own Tax Rates Table (tax year 2026, retrieved 2026-07-14), each with profile, published
 rates/credits, and refund mechanics. Special districts (JEDD/JEDZ) are listed separately.
-Browse: [municipalities/index.md](municipalities/index.md)
+Browse the full catalog: [municipalities/index.md](municipalities/index.md) — or **jump
+straight to a city** without loading the catalog: `municipalities/<slug>/index.md`, where
+`<slug>` is the name lowercased with non-alphanumerics replaced by hyphens
+(`north-royalton`, `st-louisville`, `mt-healthy`). If a slug misses, fall back to the catalog.
 
 Examples: [Medina](municipalities/medina/index.md) ·
 [Brecksville](municipalities/brecksville/index.md) ·

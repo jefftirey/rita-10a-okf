@@ -62,11 +62,24 @@ rules are year-specific and change; every page states which tax years it applies
 facts were last verified. Confirm anything you plan to act on with RITA
 ([ritaohio.com](https://www.ritaohio.com), 800-860-7482) or a qualified tax preparer.
 
-## Created by
+## About this project
 
-Built by **[Jeff Tirey](https://github.com/jefftirey)** — a Northeast Ohio local — as a working
-demonstration of public knowledge that your AI can actually read: indexed, cited, and
-maintained from primary sources. Jeff builds AI systems for real-world businesses at
-**[thalatta.ai](https://thalatta.ai)**.
+This repository is a real-world example of **sharing knowledge in a form built for AI**.
+It uses the [Open Knowledge Format](https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf)
+because OKF is appealingly simple: plain markdown files with a small YAML header, organized by
+folders and indexes — no database, no embeddings, no special tooling. An assistant reads an
+index, follows links to just the pages it needs, and cites its sources, the same way a careful
+person would use a well-organized binder. Knowledge published this way is inspectable,
+correctable, and versioned — it's just files in git.
+
+The point is effort spent once so you don't have to repeat it: the statutes have been located
+and quoted, the court decision cited, RITA's forms collected, and all 477 rate-table entries
+pulled from RITA's own data and spot-verified against primary sources — with every source URL
+and retrieval date logged. Your AI starts from that finished work instead of re-searching the
+open web and hoping.
+
+Built by **[Jeff Tirey](https://github.com/jefftirey)**, a Northeast Ohio local. Jeff builds
+AI systems for real-world businesses at
+**[thalatta.ai](https://thalatta.ai/?utm_source=github&utm_medium=readme&utm_campaign=rita-10a-okf)**.
 
 Corrections and contributions welcome — open an issue.
