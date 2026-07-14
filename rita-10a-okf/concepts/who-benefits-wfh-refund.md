@@ -1,7 +1,7 @@
 ---
 type: Concept
-title: Who benefits most from a work-from-home refund
-description: The directional pattern the published credit terms imply - township residents keep the whole refund, zero-credit city residents keep most, partial-credit some, full-credit little.
+title: Can I benefit? Who gains from a work-from-home refund
+description: For most RITA residents, yes - against a typical 2.0% workplace city, residents of 322 of 413 member municipalities (78%) net a real benefit; the ranking runs from townships (keep it all) to full-credit cities (little).
 resource: https://www.ritaohio.com/TaxRatesTable
 tags: [concept, work-from-home, credit]
 timestamp: 2026-07-14T00:00:00Z
@@ -9,7 +9,29 @@ tax_years: [2023, 2024, 2025, 2026]
 source: "Pattern implied by RITA Tax Rates Table (2026) + RITA 10A instructions/FAQ; retrieved 2026-07-14"
 ---
 
-# Who benefits most from a work-from-home refund
+# Can I benefit? Who gains from a work-from-home refund
+
+## The short answer: usually, yes — even RITA-city to RITA-city
+
+Counting rows in RITA's published 2026 Tax Rates Table (413 member municipalities;
+reproducible from the table itself):
+
+- **132 municipalities publish a 0% credit factor** — no credit for workplace taxes at all.
+  Their residents keep essentially the entire workplace refund.
+- **60 publish a partial factor** (between 0% and 100%).
+- **130 publish a 100% factor but cap the credit below a 2.0% rate** (e.g., South Amherst caps
+  at 0.1%, Bay Village at 1.0%) — the uncapped remainder of a refund is kept.
+- **91 publish a 100% factor with a limit of 2.0% or more** — against a 2.0% workplace city,
+  the refund is roughly offset by lost credit and the money mostly moves between cities. Even
+  here, a workplace city taxing **above** the resident's cap (e.g., Euclid at 2.850%) leaves a
+  benefit equal to the excess.
+
+So against a typical 2.0% workplace city, **residents of 322 of 413 RITA municipalities (78%)
+have something to gain** from a legitimate days-worked-elsewhere refund — living in one RITA
+city and working in another does not usually make the claim pointless. Whether a *specific*
+person gains, and how much, still depends on their facts and their city's ordinance.
+
+## The ranking
 
 A Form 10A refund of workplace-city tax comes with a documented counterweight: RITA amends the
 residence return to disallow the credit taken on refunded amounts, and per RITA's FAQ "you will

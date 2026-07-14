@@ -31,7 +31,7 @@ Trick questions (marked ⚠) test whether the bundle prevents confident wrong an
 | 18 | Which tax years can still be claimed as of July 2026? | 2023, 2024, 2025 open; 2022 only with a valid extension (until ~Oct 2026); 2020–2021 closed; 2026 not yet claimable | concepts/open-claim-windows.md |
 | 19 | ⚠ Can I get municipal tax back on my stock options? | No — RITA's FAQ: stock options (and severance) are not refundable; they remain taxable to the employment municipality | procedures/form-10a-overview.md |
 | 20 | Give me the direct link to the actual Form 10A PDF for tax year 2024. | https://cdn.ritaohio.com/Media/703143/Form10A%202024v2.pdf (or via the forms index page) | procedures/official-documents.md |
-| 21 | Who benefits most from a WFH refund — and what about a Strongsville resident? | Ranking: township/no-municipal-tax residents keep it all (pure recovery); zero-credit-city residents keep nearly all; partial-credit some (Strongsville 75%/2.0% → keeps ~the uncredited 25%, illustrative); full-credit cities ≈ nothing (money moves between cities). Must be flagged directional/illustrative | concepts/who-benefits-wfh-refund.md |
+| 21 | Who benefits most from a WFH refund — and what about a Strongsville resident? | Usually yes — vs a 2.0% workplace city, residents of 322/413 RITA municipalities (78%) net a benefit (132 zero-credit, 60 partial, 130 capped-below-2%); ~91 full-credit/uncapped cities ≈ nothing unless the workplace rate exceeds their cap. Township residents keep it all. Strongsville (75%/2.0%) keeps ~the uncredited 25% (illustrative). Must be flagged directional | concepts/who-benefits-wfh-refund.md |
 
 ## Traversal expectation
 
