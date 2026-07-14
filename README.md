@@ -1,5 +1,9 @@
 # RITA Form 10A — a knowledge bundle for your AI
 
+> **⚠️ This is not tax advice.** This project summarizes public information and links to
+> official sources so your AI assistant can brief you. Verify anything you plan to act on with
+> RITA ([ritaohio.com](https://www.ritaohio.com), 800-860-7482) or a qualified tax professional.
+
 If you live or work in Northeast Ohio, chances are a chunk of your paycheck goes to municipal
 income tax through **RITA** (the Regional Income Tax Agency). If you work from home some or all
 of the time — or your employer withholds for a city you don't actually work in — you may be owed
